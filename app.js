@@ -69,8 +69,6 @@ const userRouter = require("./routes/user.js");
 
 
 
-
-
 app.get("/", (req, res)=>{
     res.send("Hi , I am root");
 });
