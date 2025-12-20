@@ -67,7 +67,6 @@ const reviewRouter = require("./routes/review.js");
 const userRouter = require("./routes/user.js");
 
 
-
 app.get("/", (req, res)=>{
     res.send("Hi , I am root");
 });
