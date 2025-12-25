@@ -101,7 +101,6 @@ app.use("/listings/:id/reviews", reviewRouter);
 app.use("/", userRouter);
 
 
-/*app.all("*", (req, res, next)=>{
 
 
 app.use((err, req, res, next)=>{
