@@ -100,7 +100,6 @@ app.use("/listings", listingRouter);
 app.use("/listings/:id/reviews", reviewRouter);
 app.use("/", userRouter);
 
-
 app.use((err, req, res, next)=>{
     let {statusCode = 500, message = "Something went wrong"} = err;
     res.status(statusCode).render("error.ejs", {message});
