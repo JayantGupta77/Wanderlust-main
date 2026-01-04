@@ -43,6 +43,7 @@ const store = MOngoStore.create({
     touchAfter: 24*3600,
 });
 
+
 store.on("error", () => {
     console.log("ERROR in SESSION MONGO STORE", err);
 });
