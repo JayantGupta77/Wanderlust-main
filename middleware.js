@@ -50,7 +50,6 @@ module.exports.validateReview = (req, res, next)=>{
     }
 };
 
-
 module.exports.isReviewAuthor = async (req, res, next) =>{
     const {id, reviewId} = req.params;
     let review = await Review.findById(reviewId);
